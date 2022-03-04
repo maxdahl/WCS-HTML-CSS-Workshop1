@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #f76c6c;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+header {
+  min-height: 250px;
+  background-image: url("https://loremflickr.com/cache/resized/65535_51508628761_9179f7d7d0_h_1200_300_nofilter.jpg");
+}
+
+header h1 {
+  color: brown;
+  text-align: center;
+  padding-top: 60px;
+}
+
+main {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+main h2 {
+  color: #000;
+}
+
+main article {
+  width: 30ch;
+  min-height: 90px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: -6px -3px 10px rgba(0, 0, 0, 0.3);
+}
+
+main article h1 {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding-left: 10px;
+}
+
+footer {
+  background: #f76c6c;
+  color: #000;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+}
